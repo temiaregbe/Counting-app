@@ -1,0 +1,56 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Console", Courier, monospace;
+    background: #fffaf0;
+    color: #2f4f4f;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+h1,h2,h3,h4 {
+    letter-spacing: 0;
+    line-height: 1.25;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+#value, #store {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.btn {
+    text-transform: uppercase;
+    background: transparent;
+    color: #2f4f4f;
+    padding: 6px 12px;
+    letter-spacing: 0;
+    display: inline-block;
+    font-size: 14px;
+    border: 2px solid #2f4f4f;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin: 8px;
+    border-radius: 5px;
+}
